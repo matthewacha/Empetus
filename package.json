@@ -1,0 +1,20 @@
+{
+  "name": "empetus-js",
+  "version": "0.0.1",
+  "description": "A javascript testing library for Stimulus that simplifies testing your application",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewacha/Empetus.git"
+  },
+  "keywords": ["node", "npm", "tests", "stimulus"],
+  "author": "Matthew Wacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewacha/Empetus/issues"
+  },
+  "homepage": "https://github.com/matthewacha/Empetus#readme"
+}
