@@ -4,17 +4,27 @@
   "description": "A javascript testing library for Stimulus that simplifies testing your application",
   "main": "build/index.js",
   "scripts": {
+    "build": "babel ./src -d ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matthewacha/Empetus.git"
   },
-  "keywords": ["node", "npm", "tests", "stimulus"],
+  "keywords": [
+    "node",
+    "npm",
+    "tests",
+    "stimulus"
+  ],
   "author": "Matthew Wacha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matthewacha/Empetus/issues"
   },
-  "homepage": "https://github.com/matthewacha/Empetus#readme"
+  "homepage": "https://github.com/matthewacha/Empetus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
